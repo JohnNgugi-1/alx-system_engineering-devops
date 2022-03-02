@@ -1,3 +1,2 @@
 #!/bin/bash
-find ~+ -type f -name README.md
-\n
+find ~+ -type f -name README.md\n
