@@ -1,2 +1,2 @@
 #!/bin/bash
-readlink --canonicalize 0x00-shell_basics\n
+realpath 0x00-shell_basics\n
