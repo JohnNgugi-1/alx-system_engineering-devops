@@ -2,9 +2,9 @@
 **0x06. Regular expression**
 
 ## Author's Details.
-Name: *Michelle Juma.*
+Name: *John Ngugi.*
 
-Email: *mitchfibi@gmail.com*
+Email: *john.ngugi6@gmail.com*
 
 
 ##  Requirements
