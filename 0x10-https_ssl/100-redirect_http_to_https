@@ -42,8 +42,8 @@ listen thelaura
         mode http
         balance roundrobin
         server 20811-web-01 18.207.140.186:80 check
-        server 20811-web-02 44.211.26.101:80 check
-        server 20811-lb-01 3.236.121.161:80 check
+        server 20811-web-02 34.227.92.189:80 check
+        server 20811-lb-01 54.146.72.102:80 check
 
 frontend www-http
         bind :80
@@ -58,5 +58,5 @@ frontend www-https
 backend web-backend
         http-request redirect scheme https code 301 if !{ ssl_fc }
         server 20811-web-01 18.207.140.186:80 check
-        server 20811-web-02 44.211.26.101:80 check
-        server 20811-lb-01 3.236.121.161:80 check
+        server 20811-web-02 34.227.92.189:80 check
+        server 20811-lb-01 54.146.72.102:80 check
